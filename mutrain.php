@@ -28,7 +28,6 @@ function mtrain( $atts ) {
 
 	$cname = rawurlencode( $data['cname'] );
 
-	echo plugin_dir_path( __FILE__ ) . 'config.php';
 	$config          = include plugin_dir_path( __FILE__ ) . 'config.php';
 	$server_name     = $config['server'];
 	$connection_info = array(
